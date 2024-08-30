@@ -4,7 +4,27 @@ from datetime import datetime
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
-# Tentukan path ke folder dan nama file video
+
+st.markdown("""
+    <style>
+    @media (max-width: 600px) {
+        .title {
+            font-size: 20px;
+        }
+        .subtitle {
+            font-size: 16px;
+        }
+    }
+    @media (min-width: 601px) {
+        .title {
+            font-size: 30px;
+        }
+        .subtitle {
+            font-size: 24px;
+        }
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 def local_css(file_name):
     with open(file_name) as f:
