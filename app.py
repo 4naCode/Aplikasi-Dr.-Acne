@@ -196,9 +196,6 @@ def main():
 # Define CSS for the animation
     st.markdown("""
     <style>
-    body {
-        background-color: #2B4869; /* Setel latar belakang halaman jika perlu */
-    }
     @keyframes colorCycle {
         0% { background-position: 0% 50%; }
         50% { background-position: 100% 50%; }
@@ -207,8 +204,8 @@ def main():
     .animated-title {
         background: linear-gradient(90deg, white, #BF0A30, purple, #BF0A30, white);
         background-size: 400% 400%;
-        webkit-background-clip: text;
-        webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         animation: colorCycle 5s infinite;
         font-size: 50px;
         text-align: center;
