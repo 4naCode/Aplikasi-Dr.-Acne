@@ -194,8 +194,11 @@ def main():
     #st.title("Sistem Pakar Jerawat")
  # CSS untuk animasi pada teks
 # Define CSS for the animation
-    st.markdown("""
+st.markdown("""
     <style>
+    body {
+        background-color: #2B4869; /* Setel latar belakang halaman jika perlu */
+    }
     @keyframes colorCycle {
         0% { background-position: 0% 50%; }
         50% { background-position: 100% 50%; }
@@ -229,7 +232,6 @@ def main():
     }
     </style>
 """, unsafe_allow_html=True)
-
 # Add the animated title
     st.markdown('<h1 class="animated-title">DR. ACNE</h1>', unsafe_allow_html=True)
     st.markdown('<h2 class="sub-title">HELPING WITH ACNE</h2>', unsafe_allow_html=True)
