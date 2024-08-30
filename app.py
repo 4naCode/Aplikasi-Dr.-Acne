@@ -6,24 +6,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 st.markdown("""
-    <style>
-    @media (max-width: 600px) {
-        .title {
-            font-size: 20px;
-        }
-        .subtitle {
-            font-size: 16px;
-        }
-    }
-    @media (min-width: 601px) {
-        .title {
-            font-size: 30px;
-        }
-        .subtitle {
-            font-size: 24px;
-        }
-    }
-    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <div class="container">
+        <h1 class="display-4">Title</h1>
+        <p class="lead">This is a simple hero unit.</p>
+    </div>
 """, unsafe_allow_html=True)
 
 def local_css(file_name):
