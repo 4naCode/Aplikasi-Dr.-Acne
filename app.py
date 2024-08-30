@@ -194,7 +194,7 @@ def main():
     #st.title("Sistem Pakar Jerawat")
  # CSS untuk animasi pada teks
 # Define CSS for the animation
-st.markdown("""
+    st.markdown("""
     <style>
     body {
         background-color: #2B4869; /* Setel latar belakang halaman jika perlu */
