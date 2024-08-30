@@ -204,8 +204,8 @@ def main():
     .animated-title {
         background: linear-gradient(90deg, white, #BF0A30, purple, #BF0A30, white);
         background-size: 400% 400%;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        webkit-background-clip: text;
+        webkit-text-fill-color: transparent;
         animation: colorCycle 5s infinite;
         font-size: 50px;
         text-align: center;
