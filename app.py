@@ -5,13 +5,6 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.markdown("""
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <div class="container">
-        <h1 class="display-4">Title</h1>
-        <p class="lead">This is a simple hero unit.</p>
-    </div>
-""", unsafe_allow_html=True)
 
 def local_css(file_name):
     with open(file_name) as f:
