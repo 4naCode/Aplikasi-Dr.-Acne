@@ -4,9 +4,7 @@ from datetime import datetime
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
-import toml
 
-config = toml.load('config.toml')
 
 
 def local_css(file_name):
