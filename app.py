@@ -219,8 +219,8 @@ def main():
         font-size: 15px; /* Ukuran font untuk <h2> */
         color: #ffffff; /* Warna teks <h2> */
         text-align: center; /* Align teks di tengah */
-        margin: 0; /* Menghapus margin */
-        padding: 0; /* Menghapus padding */
+        margin: 5; /* Menghapus margin */
+        padding: 5; /* Menghapus padding */
     }
     .sub-sub-title {
         font-size: 15px; /* Ukuran font untuk <h3> */
