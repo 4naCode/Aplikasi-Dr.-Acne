@@ -5,21 +5,7 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Create a layout with two columns
-col1, col2 = st.columns([1, 2])
 
-# Add text to the first column with additional space
-col1.markdown('# Welcome To My app!')
-
-# Define the HTML and CSS for justified text with top margin in the second column
-text_col2 = """
-<div style="text-align: justify; margin-top: 30px;">
-    DR. Acne adalah aplikasi sistem pakar yang dirancang untuk membantu pengguna dalam mengetahui jenis jerawat yang mereka alami dan memberikan rekomendasi solusi pengobatan yang tepat dan efektif.
-</div>
-"""
-
-# Display the justified text in the second column
-col2.markdown(text_col2, unsafe_allow_html=True)
 
 
 def local_css(file_name):
@@ -245,6 +231,21 @@ def main():
     }
     </style>
 """, unsafe_allow_html=True)
+    # Create a layout with two columns
+    col1, col2 = st.columns([1, 2])
+    
+    # Add text to the first column with additional space
+    col1.markdown('# Welcome To My app!')
+    
+    # Define the HTML and CSS for justified text with top margin in the second column
+    text_col2 = """
+    <div style="text-align: justify; margin-top: 30px;">
+        DR. Acne adalah aplikasi sistem pakar yang dirancang untuk membantu pengguna dalam mengetahui jenis jerawat yang mereka alami dan memberikan rekomendasi solusi pengobatan yang tepat dan efektif.
+    </div>
+    """
+    
+    # Display the justified text in the second column
+    col2.markdown(text_col2, unsafe_allow_html=True)
 # Add the animated title
     st.markdown('<h1 class="animated-title">DR. ACNE</h1>', unsafe_allow_html=True)
     st.markdown('<h2 class="sub-title">HELPING WITH ACNE</h2>', unsafe_allow_html=True)
