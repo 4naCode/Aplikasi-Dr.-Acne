@@ -13,7 +13,7 @@ col1.markdown('# Welcome To My app!')
 
 # Define the HTML and CSS for justified text with top margin in the second column
 text_col2 = """
-<div style="text-align: justify; margin-top: 25px;">
+<div style="text-align: justify; margin-top: 30px;">
     DR. Acne adalah aplikasi sistem pakar yang dirancang untuk membantu pengguna dalam mengetahui jenis jerawat yang mereka alami dan memberikan rekomendasi solusi pengobatan yang tepat dan efektif.
 </div>
 """
