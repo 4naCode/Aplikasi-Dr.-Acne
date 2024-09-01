@@ -28,6 +28,13 @@
     color: #FFFFFF;
     font-family: sans-serif;
 }
+.stButton button:hover,
+.stButton button:hover,
+.stButton button:hover,
+.stFileUploader input:hover {
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.7), 0 0 30px rgba(255, 105, 180, 0.5);
+    /* Pink flame effect */
+}
 
 
 
