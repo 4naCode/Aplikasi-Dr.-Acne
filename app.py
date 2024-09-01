@@ -5,15 +5,17 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Create a layout with three columns
-col1, col2= st.columns([1, 1])
+# Create a layout with two columns
+col1, col2 = st.columns([1, 2])
 
-# Add text to the first column
-col1.markdown(" # Welcome To My app!")
+# Add text to the first column with additional space
+col1.markdown("""
+    <div style="margin-bottom: 100px;"> # Welcome To My app!</div>
+    """, unsafe_allow_html=True)
 
-# Define the HTML and CSS for justified text with top margin
+# Define the HTML and CSS for justified text with top margin in the second column
 text_col2 = """
-<div style="text-align: justify; padding-top: 20px;">
+<div style="text-align: justify;">
     DR. Acne adalah aplikasi sistem pakar yang dirancang untuk membantu pengguna dalam mengetahui jenis jerawat yang mereka alami dan memberikan rekomendasi solusi pengobatan yang tepat dan efektif.
 </div>
 """
