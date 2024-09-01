@@ -25,6 +25,7 @@ col2.markdown(text_col2, unsafe_allow_html=True)
 text_col3 = """
 <div style="padding-top: 20px;">
     <!-- Empty placeholder to adjust alignment -->
+    # SISTEM PAKAR
 </div>
 """
 
