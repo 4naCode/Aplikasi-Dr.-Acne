@@ -212,15 +212,15 @@ def main():
         font-size: 50px;
         text-align: center;
         margin-top: 20px;
-        margin: 0; /* Menghapus margin */
-        padding: 0; /* Menghapus padding */
+        margin: 3; /* Menghapus margin */
+        padding: 3; /* Menghapus padding */
     }
     .sub-title {
         font-size: 15px; /* Ukuran font untuk <h2> */
         color: #ffffff; /* Warna teks <h2> */
         text-align: center; /* Align teks di tengah */
-        margin: 5; /* Menghapus margin */
-        padding: 5; /* Menghapus padding */
+        margin: 0; /* Menghapus margin */
+        padding: 0; /* Menghapus padding */
     }
     .sub-sub-title {
         font-size: 15px; /* Ukuran font untuk <h3> */
