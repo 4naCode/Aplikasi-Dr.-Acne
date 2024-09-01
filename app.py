@@ -212,8 +212,8 @@ def main():
         font-size: 50px;
         text-align: center;
         margin-top: 20px;
-        margin: 3; /* Menghapus margin */
-        padding: 3; /* Menghapus padding */
+        margin: 5; /* Menghapus margin */
+        padding: 0; /* Menghapus padding */
     }
     .sub-title {
         font-size: 15px; /* Ukuran font untuk <h2> */
