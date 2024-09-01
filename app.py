@@ -21,16 +21,8 @@ text_col2 = """
 # Display the justified text in the second column
 col2.markdown(text_col2, unsafe_allow_html=True)
 
-# Define HTML for an empty placeholder to adjust alignment in col3 if needed
-text_col3 = """
-<div style="padding-top: 20px;">
-    <!-- Empty placeholder to adjust alignment -->
-    # SISTEM PAKAR
-</div>
-"""
-
 # Display the placeholder in the third column
-col3.markdown(text_col3, unsafe_allow_html=True)
+col3.markdown(" # SISTEM PAKAR")
 
 
 def local_css(file_name):
