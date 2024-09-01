@@ -1,14 +1,5 @@
 /* style.css */
 
-/* Title color */
-h1 {
-    color: #FFD700;
-    /* Gold color */
-    text-align: center;
-    /* Center the title */
-}
-
-/* Primary accent for interactive elements */
 .stButton button,
 .stFileUploader input {
     background-color: #FFFFFF !important;
@@ -38,14 +29,6 @@ h1 {
     font-family: sans-serif;
 }
 
-/* Hover effect with green glow animation */
-.stButton button:hover,
-.stButton button:hover,
-.stButton button:hover,
-.stFileUploader input:hover {
-    box-shadow: 0 0 15px rgba(255, 105, 180, 0.7), 0 0 30px rgba(255, 105, 180, 0.5);
-    /* Pink flame effect */
-}
 
 
 /* customizable snowflake styling */
