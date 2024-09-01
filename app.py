@@ -14,7 +14,7 @@ col1.markdown(" # Welcome To My app!")
 # Define the HTML and CSS for justified text with top margin to align with col1
 text = """
 <div style="text-align: justify; margin-top: 20px;">
-    DR. Acne adalah aplikasi sistem pakar yang dirancang untuk membantu pengguna dalam mengetahui jenis jerawat yang mereka alami dan memberikan rekomendasi solusi pengobatan yang tepat. Dengan menggunakan teknologi canggih untuk mengelola dan merawat kondisi kulit mereka dengan lebih efektif.
+    DR. Acne adalah aplikasi sistem pakar yang dirancang untuk membantu pengguna dalam mengetahui jenis jerawat yang mereka alami dan memberikan rekomendasi solusi pengobatan yang tepat dan efektif.
 </div>
 """
 
