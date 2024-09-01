@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Create a layout with three columns
-col1, col2, col3 = st.columns([1, 2, 1])
+col1, col2= st.columns([1, 2])
 
 # Add text to the first column
 col1.markdown(" # Welcome To My app!")
@@ -20,9 +20,6 @@ text_col2 = """
 
 # Display the justified text in the second column
 col2.markdown(text_col2, unsafe_allow_html=True)
-
-# Display the placeholder in the third column
-col3.markdown(" # SISTEM PAKAR")
 
 
 def local_css(file_name):
