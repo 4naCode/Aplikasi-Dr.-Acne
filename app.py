@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Create a layout with two columns
-col1, col2 = st.columns([1, 2])
+col1, col2 = st.columns([2, 1])
 
 # Add text to the first column with additional space
 col1.markdown('# Welcome To My app!')
