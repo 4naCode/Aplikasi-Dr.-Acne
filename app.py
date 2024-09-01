@@ -9,9 +9,7 @@ import seaborn as sns
 col1, col2 = st.columns([1, 2])
 
 # Add text to the first column with additional space
-col1.markdown("""
-     # Welcome To My app!
-    """)
+col1.markdown(' # Welcome To My app!')
 
 # Define the HTML and CSS for justified text with top margin in the second column
 text_col2 = """
