@@ -5,6 +5,21 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Create a layout with three columns
+col1, col2, col3 = st.columns([1, 2, 1])
+
+# Add text to the first column
+col1.markdown(" # Welcome To My app!")
+
+# Define the HTML and CSS for justified text with top margin to align with col1
+text = """
+<div style="text-align: justify; margin-top: 20px;">
+    <strong style="color: black;">DR. Acne</strong> adalah aplikasi sistem pakar yang dirancang untuk membantu pengguna dalam mengetahui jenis jerawat yang mereka alami dan memberikan rekomendasi solusi pengobatan yang tepat. Dengan menggunakan teknologi canggih untuk mengelola dan merawat kondisi kulit mereka dengan lebih efektif.
+</div>
+"""
+
+# Display the justified text in the second column
+col2.markdown(text, unsafe_allow_html=True)
 
 
 def local_css(file_name):
