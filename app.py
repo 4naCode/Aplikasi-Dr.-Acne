@@ -11,15 +11,25 @@ col1, col2, col3 = st.columns([1, 2, 1])
 # Add text to the first column
 col1.markdown(" # Welcome To My app!")
 
-# Define the HTML and CSS for justified text with top margin to align with col1
-text = """
-<div style="text-align: justify; margin-top: 20px;">
+# Define the HTML and CSS for justified text with top margin
+text_col2 = """
+<div style="text-align: justify; padding-top: 20px;">
     DR. Acne adalah aplikasi sistem pakar yang dirancang untuk membantu pengguna dalam mengetahui jenis jerawat yang mereka alami dan memberikan rekomendasi solusi pengobatan yang tepat dan efektif.
 </div>
 """
 
 # Display the justified text in the second column
-col2.markdown(text, unsafe_allow_html=True)
+col2.markdown(text_col2, unsafe_allow_html=True)
+
+# Define HTML for an empty placeholder to adjust alignment in col3 if needed
+text_col3 = """
+<div style="padding-top: 20px;">
+    <!-- Empty placeholder to adjust alignment -->
+</div>
+"""
+
+# Display the placeholder in the third column
+col3.markdown(text_col3, unsafe_allow_html=True)
 
 
 def local_css(file_name):
