@@ -253,7 +253,7 @@ def main():
    
    # Menambahkan teks setelah <h3> untuk menunjukkan jarak
     st.title('')
-    st.title('')
+    
     # Inisialisasi st.session_state untuk informasi pribadi dan kontrol tampilan
     if 'informasi_selesai' not in st.session_state:
         st.session_state['informasi_selesai'] = False
