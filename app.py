@@ -208,7 +208,7 @@ def main():
         webkit-background-clip: text;
         webkit-text-fill-color: transparent;
         animation: colorCycle 5s infinite;
-        font-size: 50px;
+        font-size: 500px;
         text-align: center;
         margin-top: 20px;
         margin: 5; /* Menghapus margin */
@@ -231,7 +231,7 @@ def main():
     </style>
 """, unsafe_allow_html=True)
     # Create a layout with two columns
-    col1, col2 , col3= st.columns([1, 2, 2])
+    col1, col2 , col3= st.columns([1, 2, 1])
     
     # Add text to the first column with additional space
     col1.markdown('# Welcome To My app!')
