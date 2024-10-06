@@ -215,7 +215,7 @@ def main():
         padding: 0; /* Menghapus padding */
     }
     .sub-title {
-        font-size: 150px; /* Ukuran font untuk <h2> */
+        font-size: 1500px; /* Ukuran font untuk <h2> */
         color: #ffffff; /* Warna teks <h2> */
         text-align: center; /* Align teks di tengah */
         margin: 0; /* Menghapus margin */
