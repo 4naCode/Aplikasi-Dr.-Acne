@@ -215,14 +215,14 @@ def main():
         padding: 0; /* Menghapus padding */
     }
     .sub-title {
-        font-size: 150px; /* Ukuran font untuk <h2> */
+        font-size: 15px; /* Ukuran font untuk <h2> */
         color: #ffffff; /* Warna teks <h2> */
         text-align: center; /* Align teks di tengah */
         margin: 0; /* Menghapus margin */
         padding: 0; /* Menghapus padding */
     }
     .sub-sub-title {
-        font-size: 150px; /* Ukuran font untuk <h3> */
+        font-size: 15px; /* Ukuran font untuk <h3> */
         color: #ffffff; /* Warna teks <h3> */
         text-align: center; /* Align teks di tengah */
         margin: 0; /* Menghapus margin */
@@ -245,7 +245,12 @@ def main():
     
     # Display the justified text in the second column
     col2.markdown(text_col2, unsafe_allow_html=True)
-    col3.markdown('#### HELPING WITH ACNE ISSUES')
+   # Add CSS to vertically center the text in col3
+    col3.markdown("""
+        <div style="display: flex; align-items: center; height: 100%;">
+            <h4 style="text-align: center;">HELPING WITH ACNE ISSUES</h4>
+        </div>
+        """, unsafe_allow_html=True)
 # Add the animated title
     st.markdown('<h1 class="animated-title">DR. ACNE</h1>', unsafe_allow_html=True)
     #st.markdown('<h2 class="sub-title">HELPING WITH ACNE</h2>', unsafe_allow_html=True)
