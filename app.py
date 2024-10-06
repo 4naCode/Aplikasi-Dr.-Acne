@@ -208,14 +208,14 @@ def main():
         webkit-background-clip: text;
         webkit-text-fill-color: transparent;
         animation: colorCycle 5s infinite;
-        font-size: 500px;
+        font-size: 50px;
         text-align: center;
         margin-top: 20px;
         margin: 5; /* Menghapus margin */
         padding: 0; /* Menghapus padding */
     }
     .sub-title {
-        font-size: 15px; /* Ukuran font untuk <h2> */
+        font-size: 150px; /* Ukuran font untuk <h2> */
         color: #ffffff; /* Warna teks <h2> */
         text-align: center; /* Align teks di tengah */
         margin: 0; /* Menghapus margin */
