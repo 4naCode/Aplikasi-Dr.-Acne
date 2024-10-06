@@ -66,7 +66,7 @@ diagnosa = {
     'D03': 'Jerawat Parah',
     'D04': 'Jerawat Batu',
     'D05': 'Post-Inflammatory Erythema',
-    'D07': 'Jerawat Mendem (Jerawat Subkutan)',
+    'D06': 'Jerawat Mendem (Jerawat Subkutan)',
     'D07': 'Post-Inflammatory Hyperpigmentation (PIH)'
 }
 
