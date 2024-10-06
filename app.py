@@ -231,7 +231,7 @@ def main():
     </style>
 """, unsafe_allow_html=True)
     # Create a layout with two columns
-    col1, col2 , col3= st.columns([1, 2, 1])
+    col1, col2 = st.columns([1, 2])
     
     # Add text to the first column with additional space
     col1.markdown('# Welcome To My app!')
@@ -246,11 +246,11 @@ def main():
     # Display the justified text in the second column
     col2.markdown(text_col2, unsafe_allow_html=True)
    # Add CSS to vertically center the text in col3
-    col3.markdown("""
-        <div style="display: flex; align-items: center; height: 100%;">
-            <h4 style="text-align: center;">HELPING WITH ACNE ISSUES</h4>
-        </div>
-        """, unsafe_allow_html=True)
+    #col3.markdown("""
+    #    <div style="display: flex; align-items: center; height: 100%;">
+    #        <h4 style="text-align: center;">HELPING WITH ACNE ISSUES</h4>
+    #    </div>
+    #    """, unsafe_allow_html=True)
 # Add the animated title
     st.markdown('<h1 class="animated-title">DR. ACNE</h1>', unsafe_allow_html=True)
     #st.markdown('<h2 class="sub-title">HELPING WITH ACNE</h2>', unsafe_allow_html=True)
