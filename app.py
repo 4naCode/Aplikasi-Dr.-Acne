@@ -245,7 +245,7 @@ def main():
     
     # Display the justified text in the second column
     col2.markdown(text_col2, unsafe_allow_html=True)
-    col3.markdown('######## HELPING WITH ACNE ISSUES')
+    col3.markdown('#### HELPING WITH ACNE ISSUES')
 # Add the animated title
     st.markdown('<h1 class="animated-title">DR. ACNE</h1>', unsafe_allow_html=True)
     #st.markdown('<h2 class="sub-title">HELPING WITH ACNE</h2>', unsafe_allow_html=True)
