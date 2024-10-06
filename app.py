@@ -231,7 +231,7 @@ def main():
     </style>
 """, unsafe_allow_html=True)
     # Create a layout with two columns
-    col1, col2 , col3= st.columns([1, 2, 1])
+    col1, col2 , col3= st.columns([1, 2, 2])
     
     # Add text to the first column with additional space
     col1.markdown('# Welcome To My app!')
