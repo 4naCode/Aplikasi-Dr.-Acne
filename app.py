@@ -66,8 +66,8 @@ diagnosa = {
     'D03': 'Jerawat Parah',
     'D04': 'Jerawat Batu',
     'D05': 'Post-Inflammatory Erythema',
-    'D06': 'Post-Inflammatory Hyperpigmentation (PIH)',
-    'D07': 'Jerawat Mendem (Jerawat Subkutan)'
+    'D07': 'Jerawat Mendem (Jerawat Subkutan)',
+    'D07': 'Post-Inflammatory Hyperpigmentation (PIH)'
 }
 
 #bisa di pake
@@ -121,7 +121,6 @@ pengobatan = {
             '- Alpha Arbutin: Mencerahkan kulit dan mengurangi noda gelap, Contoh Produk: The Ordinary Alpha Arbutin 2% + HA'
             '- Retinoid: Meningkatkan pergantian sel dan mengurangi pigmentasi, Contoh Produk: Differin Gel'
             '- Sunscreen: Melindungi kulit dari sinar UV yang dapat memperburuk PIH. Contoh Produk: Skin Aqua UV Moisture Milk SPF 50+')
-    
     
 
 }
