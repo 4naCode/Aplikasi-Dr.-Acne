@@ -108,20 +108,20 @@ pengobatan = {
             '- Hydrocortisone Cream: Seperti CeraVe Hydrocortisone Cream untuk mengurangi kemerahan dan inflamasi.\n'
             '- Vitamin C: Skinceuticals C E Ferulic membantu mencerahkan kulit dan mengurangi kemerahan.'
             '- Niacinamide: The Ordinary Niacinamide 10% + Zinc 1% untuk meredakan kemerahan dan memperbaiki tekstur kulit.'),
+    'D06': ('jenis jerawat yang terbentuk di bawah permukaan kulit, terasa keras, dan tidak memiliki kepala yang terlihat. Hindari paparan sinar matahari dan gunakan produk anti-inflamasi. \n'
+            '\n**Solusi:**\n'
+            '- Kompres Hangat: Membantu membuka pori-pori dan mempercepat penyembuhan jerawat mendem.\n'
+            "- Salicylic Acid: Membantu membersihkan pori-pori yang tersumbat. Contoh Produk: Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant"
+            '- Retinoid Topikal: Meningkatkan pergantian sel kulit untuk mencegah penyumbatan pori. Contoh Produk: Differin Gel'
+            '- Spot Treatment dengan Benzoyl Peroxide: Mengurangi bakteri dan peradangan. Contoh Produk: Oxy 5 Acne Pimple Medication')
     
-    'D06': ('Noda gelap atau kecoklatan yang tertinggal setelah jerawat sembuh, sering terjadi pada kulit yang lebih gelap.. Hindari paparan sinar matahari dan gunakan produk anti-inflamasi. \n'
+    'D07': ('Noda gelap atau kecoklatan yang tertinggal setelah jerawat sembuh, sering terjadi pada kulit yang lebih gelap.. Hindari paparan sinar matahari dan gunakan produk anti-inflamasi. \n'
             '\n**Solusi:**\n'
             '- Hydroquinone: Agen pemutih yang efektif mengurangi hiperpigmentasi. Contoh Produk: Melanox. \n'
             '- Alpha Arbutin: Mencerahkan kulit dan mengurangi noda gelap, Contoh Produk: The Ordinary Alpha Arbutin 2% + HA'
             '- Retinoid: Meningkatkan pergantian sel dan mengurangi pigmentasi, Contoh Produk: Differin Gel'
             '- Sunscreen: Melindungi kulit dari sinar UV yang dapat memperburuk PIH. Contoh Produk: Skin Aqua UV Moisture Milk SPF 50+'),
     
-    'D07': ('jenis jerawat yang terbentuk di bawah permukaan kulit, terasa keras, dan tidak memiliki kepala yang terlihat. Hindari paparan sinar matahari dan gunakan produk anti-inflamasi. \n'
-            '\n**Solusi:**\n'
-            '- Kompres Hangat: Membantu membuka pori-pori dan mempercepat penyembuhan jerawat mendem.\n'
-            "- Salicylic Acid: Membantu membersihkan pori-pori yang tersumbat. Contoh Produk: Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant"
-            '- Retinoid Topikal: Meningkatkan pergantian sel kulit untuk mencegah penyumbatan pori. Contoh Produk: Differin Gel'
-            '- Spot Treatment dengan Benzoyl Peroxide: Mengurangi bakteri dan peradangan. Contoh Produk: Oxy 5 Acne Pimple Medication')
     
 
 }
