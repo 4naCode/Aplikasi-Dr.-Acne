@@ -231,7 +231,7 @@ def main():
     </style>
 """, unsafe_allow_html=True)
     # Create a layout with two columns
-    col1, col2 = st.columns([1, 2])
+    col1, col2 , col3= st.columns([1, 2, 1])
     
     # Add text to the first column with additional space
     col1.markdown('# Welcome To My app!')
@@ -245,6 +245,7 @@ def main():
     
     # Display the justified text in the second column
     col2.markdown(text_col2, unsafe_allow_html=True)
+    col3.markdown('### Welcome To My app!')
 # Add the animated title
     st.markdown('<h1 class="animated-title">DR. ACNE</h1>', unsafe_allow_html=True)
     #st.markdown('<h2 class="sub-title">HELPING WITH ACNE</h2>', unsafe_allow_html=True)
